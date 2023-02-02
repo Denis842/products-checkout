@@ -1,0 +1,7 @@
+<li data-bind="fadeVisible: isVisible, attr: { id: stepCode }">
+    <div class="step-title" data-bind="i18n: stepTitle" data-role="title"></div>
+
+    <div data-bind="html: window.checkoutConfig.checkout_new_step_content"></div>
+
+    <button type="button" data-bind="click: navigateToNextStep, i18n: 'Next'"></button>
+</li>
